@@ -1,0 +1,1 @@
+#define  roleObj_HpOffset 0x50

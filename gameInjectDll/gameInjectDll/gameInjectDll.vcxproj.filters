@@ -19,6 +19,9 @@
     <Filter Include="功能数据类">
       <UniqueIdentifier>{f3c4994c-9472-450a-9e79-6d229e492d4b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="全局变量和函数">
+      <UniqueIdentifier>{a9afe377-5771-4b6b-a142-86344297ac2a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -32,6 +35,12 @@
     </ClCompile>
     <ClCompile Include="MainDataDlg.cpp">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RoleObj.cpp">
+      <Filter>功能数据类</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseStruct.cpp">
+      <Filter>功能数据类</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -49,6 +58,18 @@
     </ClInclude>
     <ClInclude Include="MainDataDlg.h">
       <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RoleObj.h">
+      <Filter>功能数据类</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseStruct.h">
+      <Filter>功能数据类</Filter>
+    </ClInclude>
+    <ClInclude Include="baseAddr.h">
+      <Filter>基址和偏移</Filter>
+    </ClInclude>
+    <ClInclude Include="baseOffset.h">
+      <Filter>基址和偏移</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
