@@ -9,25 +9,27 @@
 
 #define MAX_BUFFER_SIZE 0x100
 
+
+//全局调试函数
 void dbgPrint_String(char* szpFormatName, ...){
 
-#ifdef _DEBUG
+	#ifdef _DEBUG
 
-	va_list argList;
-	char buffer[MAX_BUFFER_SIZE];
-	char szBuffer_Game[MAX_BUFFER_SIZE] = "Game:";
+		va_list argList;
+		char buffer[MAX_BUFFER_SIZE];
+		char szBuffer_Game[MAX_BUFFER_SIZE] = "Game:";
 
-	va_start(argList, szpFormatName);
+		va_start(argList, szpFormatName);
 
-	vsprintf_s(buffer, szpFormatName, argList);
+		vsprintf_s(buffer, szpFormatName, argList);
 
-	strcat_s(szBuffer_Game, buffer);
+		strcat_s(szBuffer_Game, buffer);
 
-	OutputDebugStringA(szBuffer_Game);
+		OutputDebugStringA(szBuffer_Game);
 
-	va_end(argList);
+		va_end(argList);
 
-#endif // __DEBUG
+	#endif // __DEBUG
 
 
 }

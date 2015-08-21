@@ -1,5 +1,14 @@
 #pragma once
 #include "BaseStruct.h"
+
+
+/*
+人物属性类，主要封装了人物的一些属性，以及一些接口函数\
+Time: 2015年8月21日14:02:09
+
+
+*/
+
 class CRoleObj :
 	public CBaseStruct
 {
