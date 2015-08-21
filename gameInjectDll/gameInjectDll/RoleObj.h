@@ -18,8 +18,6 @@ public:
 public:
 	//自己定义的函数接口
 	virtual void PrintDataMsg();
-protected:
-
 	virtual CBaseStruct& Init();
 	
 

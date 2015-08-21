@@ -1,15 +1,19 @@
 #include "stdafx.h"
 #include "RoleObj.h"
 #include "g_funcAndVar.h"
+#include "baseAddr.h"
+#include "baseOffset.h"
 
 
 CRoleObj::CRoleObj()
 {
+
 }
 
 
 CRoleObj::~CRoleObj()
 {
+
 }
 
 
