@@ -7,6 +7,9 @@ public:
 
 
 	virtual void PrintDataMsg() = 0;
+
+protected:
+
 	virtual CBaseStruct& Init() = 0;
 
 

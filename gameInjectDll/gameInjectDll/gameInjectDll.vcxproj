@@ -115,6 +115,7 @@
     <ClInclude Include="baseOffset.h" />
     <ClInclude Include="BaseStruct.h" />
     <ClInclude Include="gameInjectDll.h" />
+    <ClInclude Include="g_funcAndVar.h" />
     <ClInclude Include="MainDataDlg.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="RoleObj.h" />

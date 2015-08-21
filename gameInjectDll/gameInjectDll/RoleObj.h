@@ -6,13 +6,13 @@ class CRoleObj :
 public:
 	CRoleObj();
 	~CRoleObj();
+public:
+	//自己定义的函数接口
+	virtual void PrintDataMsg();
+protected:
 
-
-	CRoleObj& Init();
-	void PrintDataMsg();
-
-
-
+	virtual CBaseStruct& Init();
+	
 
 private:
 	//定义人物对象属性 偏移等

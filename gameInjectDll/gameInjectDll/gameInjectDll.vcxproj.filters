@@ -71,6 +71,9 @@
     <ClInclude Include="baseOffset.h">
       <Filter>基址和偏移</Filter>
     </ClInclude>
+    <ClInclude Include="g_funcAndVar.h">
+      <Filter>全局变量和函数</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="gameInjectDll.def">
